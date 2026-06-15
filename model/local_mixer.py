@@ -16,3 +16,5 @@ class LocalSelfAttention(nn.Module):
         mask = local_window_mask(T, self.window_size, x.device)
         out, _ = self.attn(x, x, x, attn_mask=mask)
         return out
+
+#interest
