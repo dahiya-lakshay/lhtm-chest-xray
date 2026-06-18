@@ -6,7 +6,7 @@ from model.baseline_vit import BaselineViT
 from model.cnn_baseline import CNNBaseline
 from training.train import train
 
-
+if __name__ == "__main__":
 
     # Download dataset
     path = kagglehub.dataset_download("paultimothymooney/chest-xray-pneumonia")
