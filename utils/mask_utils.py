@@ -7,5 +7,3 @@ def local_window_mask(seq_len, window_size, device):
         end = min(seq_len, i + window_size + 1)
         mask[i, start:end] = 0
     return mask
-
-//markup
